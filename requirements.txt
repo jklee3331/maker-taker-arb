@@ -1,10 +1,8 @@
-# ── core data stuff ───────────────────────────────────────────────
 pandas>=2.0
-numpy>=1.24           # 1.24+ for pandas-2 compatibility
+numpy>=1.24
 
-# ── plotting ──────────────────────────────────────────────────────
-plotly>=5.15          # interactive charts (works offline)
-
-# ── notebook front-end (pick one) ────────────────────────────────
-jupyterlab            # modern UI  ─ or replace with "notebook" if you prefer
-ipywidgets>=8.0       # optional, but Plotly's modebar needs it in classic Notebook
+plotly>=5.15
+ipython>=8.0
+nbformat>=5.5        
+jupyterlab           # or “notebook” in IDE - VScode, Cursor
+ipywidgets>=8.0
